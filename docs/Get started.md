@@ -128,7 +128,7 @@ If you're using the `ingress-nginx`, enabling the ingress will set the necessary
 Ackee dependents on …
 
 - [Node.js](https://nodejs.org/en/) (v14 or newer)
-- [yarn](https://yarnpkg.com/en/)
+- [npm](https://www.npmjs.com/)
 - [MongoDB](https://www.mongodb.com) (v4.4 or newer)
 
 Make sure to install and update all dependencies before you continue. The installation instructions for the individual dependencies can be found on the linked websites.
@@ -154,7 +154,7 @@ The username and password variables are used to secure your Ackee interface/API.
 Install all required dependencies.
 
 ```sh
-yarn install
+npm install
 ```
 
 ### 4. Run Ackee
@@ -162,7 +162,7 @@ yarn install
 Ackee will output the URL it's listening on once the server is running. Visit the URL with your browser and complete the finial steps using the interface.
 
 ```sh
-yarn start
+npm run start
 ```
 
 ### 5. Get Ackee online
@@ -198,7 +198,7 @@ When prompted to select a directory, select the root directory.
 
 ### 2. Configure Ackee
 
-* Set the build command: `yarn build`
+* Set the build command: `npm run build`
 * Set the output directory: `dist`
 * Set environment variables `ACKEE_USERNAME`, `ACKEE_PASSWORD`, `ACKEE_MONGODB`, and `ACKEE_ALLOW_ORIGIN`.
 

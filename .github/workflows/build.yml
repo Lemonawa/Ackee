@@ -39,11 +39,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - run: yarn install --frozen-lockfile
+      - run: npm ci
 
-      - run: yarn test
+      - run: npm run test
 
-      - run: yarn coveralls
+      - run: npm run coveralls
 
       - name: Parallel Coveralls report
         uses: coverallsapp/github-action@master
