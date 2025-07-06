@@ -127,9 +127,9 @@ If you're using the `ingress-nginx`, enabling the ingress will set the necessary
 
 Ackee dependents on …
 
-- [Node.js](https://nodejs.org/en/) (v14 or newer)
+- [Node.js](https://nodejs.org/en/) (v22 or newer)
 - [npm](https://www.npmjs.com/)
-- [MongoDB](https://www.mongodb.com) (v4.4 or newer)
+- [MongoDB](https://www.mongodb.com) (v7 or newer)
 
 Make sure to install and update all dependencies before you continue. The installation instructions for the individual dependencies can be found on the linked websites.
 
