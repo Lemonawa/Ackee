@@ -13,7 +13,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Fixed
 
-- ReDOS vulnerabilty of is_js, the request-ip dependency (thanks @marek629, #392)
+- ReDOS vulnerability of is_js, the request-ip dependency (thanks @marek629, #392)
 
 ## [3.4.2] - 2022-12-17
 
