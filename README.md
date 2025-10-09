@@ -78,6 +78,7 @@ I am working hard on continuously developing and maintaining Ackee. Please consi
 - [Quit Google Analytics, Self-hosted Gatsby Statistics with Ackee](https://dev.to/aleccool213/quit-google-analytics-self-hosted-gatsby-statistics-with-ackee-4011)
 - [Getting Ackee up and running with Heroku 🇪🇸](https://rubenr.dev/blog/ackee-analitica-web-sencilla/)
 - [Why I Self-Host My Website Analytics](https://mbuffett.com/posts/why-i-self-host-my-analytics/)
+- [Beyond Google Analytics: Embrace Privacy with Ackee on Vercel](https://lev.engineer/blog/beyond-google-analytics-embrace-privacy-with-ackee-on-vercel)
 
 ### Related
 
