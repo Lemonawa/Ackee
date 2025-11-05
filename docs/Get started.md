@@ -291,7 +291,6 @@ Upon launching the template, you will be prompted to configure the Ackee and Mon
 - Click `Configure` on the MongoDB service.  You do not need to set any variable configurations, simply click `Save Config`.
 - Click `Deploy`
 
-
 Upon deployment, everything should just work on it's own. Railway will automatically provision the MongoDB database for you and link it to your Ackee service!
 
 ## With Koyeb
