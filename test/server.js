@@ -3,7 +3,6 @@
 const test = require('ava')
 const uuid = require('crypto').randomUUID
 const listen = require('test-listen')
-const fetch = require('node-fetch')
 
 const server = require('../src/server')
 
