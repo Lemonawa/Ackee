@@ -25,7 +25,7 @@ Once you're finished, push your branch to your repo and create a pull request!
 Simply run Ackee with `NODE_ENV` set to `development` to get access to the [GraphQL Playground](https://docs.ackee.electerious.com/#/docs/API#playground). You can do this by adding `NODE_ENV=development` to the environment of your `docker-compose.yml` or by running:
 
 ```sh
-npm run start:dev
+npm run dev
 ```
 
 ## Linting

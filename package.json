@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "npm run build && npm run server",
-    "start:dev": "NODE_ENV=development nodemon",
+    "dev": "NODE_ENV=development nodemon",
     "build:pre": "BUILD_ENV=pre npm run build",
     "build": "node build.js",
     "server": "node src/index.js",
