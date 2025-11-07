@@ -44,6 +44,7 @@ const origin = (origin, callback) => {
 }
 
 exports.handler = (event, context) => {
+	console.dir(event, { depth: 10 })
 	// Set request context which is missing on Vercel:
 	// https://stackoverflow.com/questions/71360059/apollo-server-lambda-unable-to-determine-event-source-based-on-event
 	if (event.requestContext == null) event.requestContext = context
