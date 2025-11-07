@@ -17,6 +17,7 @@ const {
 const config = require('./config')
 
 module.exports = (ApolloServer, options) => new ApolloServer({
+	cache: 'bounded',
 	introspection: config.isDemoMode === true || config.isDevelopmentMode === true,
 	playground: config.isDemoMode === true || config.isDevelopmentMode === true,
 	debug: config.isDevelopmentMode === true,
