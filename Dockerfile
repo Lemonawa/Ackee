@@ -43,4 +43,4 @@ HEALTHCHECK --interval=1m --timeout=45s --start-period=45s CMD [ "/srv/app/src/h
 
 # Start Ackee
 
-CMD npm run start
+CMD [ "npm", "run", "start" ]
