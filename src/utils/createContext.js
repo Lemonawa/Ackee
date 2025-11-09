@@ -8,7 +8,6 @@ const createDate = require('./createDate')
 const ignoreCookie = require('./ignoreCookie')
 
 const createServerlessContext = (integrationContext) => {
-	console.dir(integrationContext, { depth: 10 })
 	return createContext(integrationContext.event.headers['client-ip'], integrationContext.event.headers)
 }
 
