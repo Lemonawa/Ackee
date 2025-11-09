@@ -5,7 +5,7 @@ ENV NODE_ENV=production
 
 # Add and set non-root user. Disable the password and do not create a home folder.
 
-RUN adduser -D ackee ackee
+RUN [ "adduser", "-D", "ackee", "ackee" ]
 USER ackee
 
 WORKDIR /srv/app/
@@ -13,7 +13,7 @@ WORKDIR /srv/app/
 # Add dependencies first so that Docker can use the cache as long as the dependencies stay unchanged
 
 COPY package.json package-lock.json /srv/app/
-RUN npm ci
+RUN [ "npm", "ci" ]
 
 # Copy source after the dependency step as it's more likely that the source changes
 
@@ -33,7 +33,8 @@ COPY --from=build /srv/app/ /srv/app/
 
 # Create user/group to run as, change ownership of files and set user
 
-RUN adduser -D ackee ackee && chown -R ackee:ackee /srv/app
+RUN [ "adduser", "-D", "ackee", "ackee" ]
+RUN [ "chown", "-R", "ackee:ackee", "/srv/app" ]
 USER ackee
 
 # Run healthcheck against MongoDB, server and API.
