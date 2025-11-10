@@ -137,7 +137,7 @@ test.serial('reject record with invalid siteLocation', async (t) => {
 
 	const { json } = await api(base, body, t.context.token.id)
 
-	t.is(json.data, null)
+	t.is(json.data, undefined)
 	t.truthy(json.errors)
 	t.is(json.errors.length, 1)
 	t.true(json.errors[0].message.includes('Invalid URL'))
@@ -166,7 +166,7 @@ test.serial('reject record with invalid siteReferrer', async (t) => {
 
 	const { json } = await api(base, body, t.context.token.id)
 
-	t.is(json.data, null)
+	t.is(json.data, undefined)
 	t.truthy(json.errors)
 	t.is(json.errors.length, 1)
 	t.true(json.errors[0].message.includes('Invalid URL'))
