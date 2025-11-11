@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+Small fixes, internal improvements and dependency updates.
+
 ### Changed
 
 - Ackee now requires Node.js 22 or newer
