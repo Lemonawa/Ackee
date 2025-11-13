@@ -10,9 +10,9 @@ Small fixes, internal improvements and dependency updates.
 
 ### Changed
 
-- Ackee now requires Node.js 22 or newer
-- The official Docker image is now based on Node.js 22 (#343)
-- Netlify builds use Node.js 22 (#343)
+- Ackee now requires Node.js 22 or newer (fixes #343)
+- The official Docker image is now based on Node.js 22 (fixes #343)
+- Netlify builds use Node.js 22 (fixes #343)
 - URLs without protocols (e.g., `example.com`) are now rejected by the API. The official `ackee-tracker` client sends `window.location.href` with protocol, so this only affects custom API clients sending malformed URLs as `siteReferrer` and `siteLocation`.
 
 ### Fixed
