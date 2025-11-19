@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [3.5.1] - 2025-11-19
+
+### Changed
+
+- Several dependencies have been updated to their latest versions to bring in security patches and improvements
+
+### Fixed
+
+- `ackee-tracker` has been updated to fix an issue where visits were not recorded when the website had an empty `document.referrer`. You might have seen lower visit counts since version 3.5.0 when your website had no referrer, e.g., when visiting it directly or via bookmarks.
+
 ## [3.5.0] - 2025-11-13
 
 Small fixes, internal improvements and dependency updates.
